@@ -12,6 +12,8 @@ dependencies:
 dev_dependencies:
   test: ^1.16.0
   pedantic:
+  path:
+  yaml:
   tekartik_lints:
     git:
       url: https://github.com/tekartik/common.dart
