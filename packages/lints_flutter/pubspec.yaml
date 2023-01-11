@@ -1,6 +1,6 @@
 name: tekartik_lints_flutter
 description: Tekartik flutter lints
-version: 0.1.2
+version: 0.2.0
 publish_to: none
 
 environment:
@@ -19,4 +19,4 @@ dev_dependencies:
       url: https://github.com/tekartik/common.dart
       ref: dart2_3
       path: packages/lints
-    version: '>=0.1.0'
+    version: '>=0.2.0'

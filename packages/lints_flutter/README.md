@@ -24,3 +24,9 @@ In `analysis_options.yaml`:
 # tekartik flutter recommended lints (extension over google lints and pedantic)
 include: package:tekartik_lints_flutter/recommended.yaml
 ```
+
+Stricter
+```yaml
+# tekartik flutter recommended lints (extension over google lints and pedantic)
+include: package:tekartik_lints_flutter/strict.yaml
+```
