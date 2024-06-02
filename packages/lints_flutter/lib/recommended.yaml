@@ -61,10 +61,10 @@ linter:
     - test_types_in_equals
     - throw_in_finally
     - unawaited_futures
-    - unnecessary_import
+    # - unnecessary_import // remove 2024-05-15
     - unnecessary_null_aware_assignments
     - unnecessary_statements
-    - unnecessary_type_check
+    # - unnecessary_type_check // remove 2024-05-15
     - unrelated_type_equality_checks
     - unsafe_html
     - valid_regexps
