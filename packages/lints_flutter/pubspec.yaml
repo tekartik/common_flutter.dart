@@ -18,4 +18,6 @@ dev_dependencies:
   test: ">=1.16.0"
   yaml:
   path:
-  lints:
+dependency_overrides:
+  lints: '>=5.1.0'
+  flutter_lints: '>=5.0.0'
