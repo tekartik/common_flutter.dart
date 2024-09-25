@@ -1,9 +1,8 @@
 # Stricter rules
 
 # Include recommended first
-include: package:tekartik_lints_flutter/strict.yaml
+include: package:tekartik_lints_flutter/package.yaml
 
 linter:
   rules:
-    prefer_if_elements_to_conditional_expressions: true
-    package_api_docs: true
+    - prefer_if_elements_to_conditional_expressions
