@@ -14,5 +14,11 @@ Future<void> main() async {
     await File(
       join('doc', 'all_rules_${basename(file.path)}'),
     ).writeAsString(content);
+    content = (await run(
+      'tklint list-rules --force-any ${shellArgument(file.path)}',
+    )).first.outText;
+    await File(
+      join('.local', 'all_rules_any_${basename(file.path)}'),
+    ).writeAsString(content);
   }
 }
