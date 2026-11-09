@@ -1,6 +1,4 @@
-# Defines a default set of lint rules enforced for
-# projects at Google. For details and rationale,
-# see https://github.com/dart-lang/pedantic#enabled-lints.
+# tekartik recommended lints for Flutter: flutter_lints plus the rules below.
 include: package:flutter_lints/flutter.yaml
 
 # Until there are meta linter rules, each desired lint must be explicitly enabled.

@@ -1,6 +1,6 @@
-# Stricter rules
+# Rules for a package used by others: strict plus public api docs.
 
-# Include recommended first
+# Include strict first
 include: package:tekartik_lints_flutter/strict.yaml
 
 linter:
